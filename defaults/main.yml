@@ -9,6 +9,7 @@ container_labels: {}
 container_network:
 container_restart_policy: always
 container_recreate: false
+container_image: portainer/portainer
 auth_method: 1
 
 # Portainer version
