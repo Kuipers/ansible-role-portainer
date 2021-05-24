@@ -3,6 +3,7 @@
   community.docker.docker_container:
     name: portainer
     image: "{{ container_image }}:{{ version }}"
+    pull: "{{ image_pull }}"
     labels: "{{ container_labels | default(omit) }}"
     state: started
     detach: true

@@ -10,6 +10,7 @@ container_network:
 container_restart_policy: always
 container_recreate: false
 container_image: portainer/portainer
+image_pull: no
 auth_method: 1
 
 # Portainer version
